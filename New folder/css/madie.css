@@ -1,0 +1,35 @@
+@media (min-width: 992px) {
+    .navbar-inverse{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .portfolio .item-caption{
+        width: 92%;
+        height: 96%;
+        margin-top: 10px;
+    }
+}
+@media (max-width:769px){
+    .portfolio img{
+        max-width: 97%;
+    }
+    .about .lead{
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .about .btn{width: 28%;}
+    .form-group,
+    .contact .btn{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .footer{text-align: center;}
+}
+@media (max-width:768px) {
+    .about .btn{width: 47%;}
+    hr{width: 40%;}
+    .container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+        margin-bottom: 20px;
+    }
+    .navbar-inverse{padding: 5px;}
+}
